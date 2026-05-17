@@ -154,6 +154,7 @@ app.use((req, res) => {
     .status(404)
     .json({ error: `Ruta ${req.method} ${req.url} no encontrada` });
 });
+
 // =====================
 // INICIAR SERVIDOR
 // =====================
